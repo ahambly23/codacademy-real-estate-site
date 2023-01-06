@@ -1,0 +1,182 @@
+/* Universal */
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    width: 100%;
+    
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    /* padding: 0 180px; */
+    margin-top: -20px;
+}
+
+header nav ul li a,
+h1 a {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+
+.heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+
+/* Mission */
+
+#mission {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding-bottom: 75px;
+}
+
+.mission-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mission-statement {
+    max-width: 600px;
+    padding: 28px;
+    font-size: 16px;
+    text-align: justify;
+}
+/* Portfolio */
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#portfolio h2 {
+    padding-top: 20px;
+    font-size: 80px;
+    margin: 0;
+}
+
+.property {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    align-items: center;
+}
+
+.property-info {
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.address {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1.2px;
+}
+
+img {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    margin-top: 50px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1.2px;
+}
+
+
+
+/* Team */
+
+.profiles {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    justify-content: space-evenly;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+.profiles div {
+    width: 100%;
+    height: 100%;
+    max-width: 350px;
+}
+
+.profiles div p {
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    box-shadow: 2px 2px;
+    padding-bottom: 5px;
+}
+
+.profiles div img {
+    border: 5px solid black;
+}
+
+.profile-name {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1.2px;
+}
+
+.mugshot {
+    border-radius: 50%;
+    
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    gap: 50px;
+}
+
+footer nav ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
